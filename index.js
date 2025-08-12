@@ -8,3 +8,6 @@ app.get("/", (req, res) => {
 });
 
 export default app;
+app.get('/', (req, res) => {
+  res.send('WasteTracker API is running 🚀');
+});
